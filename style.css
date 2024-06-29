@@ -70,8 +70,24 @@
     left: 60px;
     font-size: 1.2em;
     color: white;
-    opacity: 0.5; 
+    opacity: 0.5;
+    display: flex;
+    gap: 60px;
 }
+  .main_box .social_media ul 
+  {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .main_box .social_media a {
+    color: white;
+    opacity: 0.5;
+    font-size: 1.2em;
+  }
+  
 .sidebar_menu .btn_two
 {
     color: grey;
